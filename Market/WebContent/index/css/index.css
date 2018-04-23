@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* 主页 */ /*head*/
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	color: #454545;
+}
+
+.nav {
+	_behavior: url(/km/index/css/img/iepngfix.htc);
+}
+
+.head_bj {
+	width: 100%;
+	height: 110px;
+	background:url(img/index/head_bj.jpg) no-repeat;
+	padding-top: 14px;
+}
+
+.head_info {
+	color: #FFFFFF;
+	width: 70%;
+	height: 45px;
+	margin: 0 0 0 345px;
+	clear: both;
+	overflow: hidden;
+}
+
+.head_info a {
+	float: right;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.head_link {
+	width: 50%;
+	margin: 0 0 0 345px;
+	height: 20px;
+}
+
+.head_link a {
+	color: #FFFFFF;
+	font-weight: 900;
+	margin: 0 10px 0 0;
+	font-size: 14px;
+}
+
+.head_link a:hover {
+	color: #FFFFCC;
+}
+
+.nav {
+	width: 1217px;
+	height: 50px;
+	padding: 7px 0 0 7px;
+	margin: 15px auto 0 auto;
+	background: url(img/index/nav.png) no-repeat;
+	clear: both;
+}
+
+.nav li {
+	float: left;
+	position: relative;
+}
+
+.nav_2,.nav_1 {
+	color: #0666BF;
+	font-size: 16px;
+	height: 33px;
+	padding: 10px 13px 0 13px;
+	float: left;
+	text-decoration: none;
+}
+
+.nav_1:hover {
+	text-decoration: none;
+}
+
+.nav_2:hover {
+	text-decoration: none;
+}
+
+.nav_2_hover {
+	color: #0666BF;
+	font-size: 16px;
+	height: 33px;
+	padding: 10px 13px 0 13px;
+	float: left;
+	background: url(img/index/nav_2.jpg) repeat-x;
+	text-decoration: none;
+}
+
+.nav_1_hover {
+	color: #0666BF;
+	font-size: 16px;
+	height: 33px;
+	padding: 10px 13px 0 13px;
+	float: left;
+	background: url(img/index/nav_1.gif) no-repeat;
+	text-decoration: none;
+}
+
+.nav_2_hover:hover {
+	text-decoration: none;
+}
+
+.nav_1_hover:hover {
+	text-decoration: none;
+}
+
+.nav_layer {
+	border: 1px solid #CBE3F9;
+	background: #E4F1FC;
+	position: absolute;
+	left: 1px;
+	top: 43px;
+	padding: 5px;
+	display: none;
+}
+
+.nav_layer a {
+	display: block;
+	border-bottom: 1px dashed #BCDBF8;
+	color: #4D4D4D;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.nav_layer a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div,form,p,img,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.creat_text {
+	border: 1px solid #D0D0D0;
+	background: #FFFFFF;
+	height: 24px;
+	line-height: 24px;
+}
+
+.creat_textH {
+	border: 1px solid #D0D0D0;
+	background: #FFFFDD;
+	height: 24px;
+	line-height: 24px;
+}

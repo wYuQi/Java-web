@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+.left_tree {
+	width: 188px; /*宽度 */
+	height: 100%; /*高度*/
+	background: url(img/menu/left_tree_bj.jpg) repeat-y;
+	/*背景图片 纵向平铺*/
+	float: left; /*左浮动*/
+	display: inline; /*内联对象默认设置*/
+	position: relative; /*相对定位*/
+	left: 6px; /**/
+	overflow-y: auto; /*在需要时剪切内容并添加滚动条*/
+	overflow-x: hidden; /*不显示超过对象宽度的内容*/
+}
+
+.left_tree_top {
+	width: 100%; /*宽度是此模块的100%*/
+	/*background: url(img/menu/left_tree_top_bj.jpg) no-repeat 0 50px;
+	/*背景图片，不平铺 */
+}
+
+/*总标题*/
+.left_tree_top_T {
+	width: 100%; /*标题宽度*/
+	height: 30px; /*高度*/
+	line-height: 30px; /*行高*/
+	background: url(img/menu/left_tree_top_T.jpg) no-repeat;
+	/*标题背景图片*/
+	color: #1D5274; /*字体颜色*/
+	font-weight: 600; /*字体粗细*/
+}
+
+/*标题前面的图片*/
+.left_tree_top_1 {
+	width: 6px;
+	height: 6px;
+	background: url(img/menu/left_tree_top_1.gif) no-repeat;
+	float: left;
+	margin: 11px 10px 0 15px;
+	display: inline; /*内联对象默认设置*/
+}
+
+/*文字左浮动*/
+.left_tree_top span {
+	float: left;
+}
+
+/*一个模块*/
+.left_tree_con {
+	height: auto;
+	padding-bottom: 18px; /*下边距*/
+}
+
+/*模块标题*/
+.left_tree_title {
+	width: 186px;
+	height: 26px;
+	line-height: 26px;
+	background: url(img/menu/left_tree_con.jpg) repeat-x; /*横向平铺*/
+	margin: 5px auto 0 auto;
+	color: #324958;
+	cursor: pointer;
+}
+
+/*模块标题文字 左浮动*/
+.left_tree_title span {
+	float: left;
+}
+
+/*模块前图标*/
+.unfold,.merge {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 7px 10px 0 15px;
+	cursor: pointer;
+	display: inline;
+}
+
+/*关闭图标 - */
+.unfold {
+	background: url(img/menu/unfold.gif) no-repeat;
+}
+
+/*展开图标 + */
+.merge {
+	background: url(img/menu/merge.gif) no-repeat;
+}
+
+/*树下的列表*/
+.left_tree_con ul {
+	height: auto;
+	padding: 0;
+	margin: 6px 0 0 25px;
+	display: none;
+}
+
+/*树下的列表项*/
+.left_tree_con ul li {
+	color: #324958;
+	margin: 0;
+	padding: 0 0 0 10px;
+	_height: 20px;
+	line-height: 20px;
+	list-style: none;
+	background: url(img/menu/li.gif) no-repeat center left;
+}
+
+/*树下的列表项 超链接*/
+.left_tree_con ul li a {
+	color: #324958;
+	text-decoration: none;
+}
+
+.left_tree_con ul li a:hover {
+	color: #4D7188;
+}
+
+/*底部页面*/
+.left_bot {
+	width: 100%;
+	height: 17px;
+	background: url(img/menu/left_bot.jpg) no-repeat;
+	position: absolute;
+	left: 6px;
+	bottom: 0;
+	_bottom: -1px;
+	overflow: hidden;
+}
+
+/*左侧树形控制*/
+.left_line {
+	width: 11px;
+	height: 100%;
+	border: 1px solid #B6C0C9;
+	background: url(img/menu/left_line.jpg) repeat-y;
+	float: right;
+	margin-right: 4px;
+	vertical-align: middle;
+	display: inline;
+}
+
+/*左侧栏展开*/
+.left_line_arror {
+	width: 11px;
+	height: 53px;
+	background: url(img/menu/left_line_arror.jpg) no-repeat;
+	position: relative;
+	top: 50%;
+	cursor: pointer;
+}
+
+/*左侧栏收起样式*/
+.left_line_arror2 {
+	width: 11px;
+	height: 53px;
+	background: url(img/menu/left_line_arror2.jpg) no-repeat;
+	position: relative;
+	top: 50%;
+	cursor: pointer;
+}
